@@ -12,6 +12,6 @@ import retrofit2.http.GET;
 
 public interface RequsetInterface {
 
-    @GET("?api-key=d92fd1f9-e11d-4498-b38d-709581ee11df")
+    @GET("search?api-key=d92fd1f9-e11d-4498-b38d-709581ee11df")
     Call<NewsModel> getNewsCall();
 }
