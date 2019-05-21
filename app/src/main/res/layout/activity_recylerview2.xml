@@ -13,7 +13,7 @@
             android:id="@+id/recycler_view_test_rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#bbccaa"
+            android:background="#F8F8FF"
             android:scrollbars="vertical" />
     </com.andview.refreshview.XRefreshView>
 
