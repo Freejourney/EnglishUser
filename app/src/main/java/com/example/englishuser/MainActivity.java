@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
     private Button mCheckRft2Btn;
+    private NewsModel news;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<NewsModel> call, Response<NewsModel> response) {
                 if (response.isSuccessful()) {
                     XLog.i("Response", response.body().toString());
-                    NewsModel news = response.body();
+                    news = response.body();
                 }
             }
 
