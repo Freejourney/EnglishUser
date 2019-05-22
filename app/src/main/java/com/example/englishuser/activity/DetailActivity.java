@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.activity;
 /*
  * 文件名：DetailActivity
  * 作者：created by admin on 2019 五月
@@ -7,21 +7,22 @@ package com.example.englishuser;
  */
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.text.Html;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.englishuser.Bean.Aitem;
+import com.example.englishuser.R;
+import com.example.englishuser.db.DBManager;
 import com.zwy.xlog.XLog;
 
 import java.util.List;
 
-import static com.example.englishuser.Util.showToast;
+import static com.example.englishuser.util.Util.showToast;
 
 public class DetailActivity extends Activity {
 

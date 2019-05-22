@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.andview.refreshview.recyclerview.BaseRecyclerAdapter;
+import com.example.englishuser.util.DensityUtil;
+import com.example.englishuser.activity.DetailActivity;
+import com.example.englishuser.R;
 
 import java.util.List;
 

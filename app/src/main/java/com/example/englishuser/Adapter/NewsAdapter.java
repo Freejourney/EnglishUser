@@ -13,6 +13,7 @@ import com.andview.refreshview.recyclerview.BaseRecyclerAdapter;
 import com.example.englishuser.Bean.NewsModel;
 import com.example.englishuser.R;
 import com.example.englishuser.activity.DetailActivity;
+import com.example.englishuser.activity.NewsActivity;
 import com.example.englishuser.util.DensityUtil;
 
 import java.util.List;
@@ -35,10 +36,10 @@ public class NewsAdapter extends BaseRecyclerAdapter<NewsAdapter.QuestionAdapter
         holder.rootView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(context, DetailActivity.class);
-//                intent.putExtra("Id", position);
+                Intent intent = new Intent(context, NewsActivity.class);
+                intent.putExtra("url", list.get(position).getWebUrl());
 //                intent.putExtra("title", holder.questionTV.getText());
-//                context.startActivity(intent);
+                context.startActivity(intent);
             }
         });
         ViewGroup.LayoutParams layoutParams = holder.itemView.getLayoutParams();

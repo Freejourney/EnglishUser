@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.util;
 /*
  * 文件名：RequsetInterface
  * 作者：created by admin on 2019 五月
@@ -6,6 +6,8 @@ package com.example.englishuser;
  *
  */
 
+
+import com.example.englishuser.Bean.NewsModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

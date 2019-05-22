@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.db;
 /*
  * 文件名：DBManager
  * 作者：created by admin on 2019 五月
@@ -9,6 +9,11 @@ package com.example.englishuser;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+
+import com.example.englishuser.AitemDao;
+import com.example.englishuser.Bean.Aitem;
+import com.example.englishuser.DaoMaster;
+import com.example.englishuser.DaoSession;
 
 import org.greenrobot.greendao.query.QueryBuilder;
 

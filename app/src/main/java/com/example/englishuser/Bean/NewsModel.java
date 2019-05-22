@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.Bean;
 /*
  * 文件名：NewsModel
  * 作者：created by admin on 2019 五月
@@ -12,6 +12,10 @@ public class NewsModel {
 
     private NewsResponse response;
 
+    public NewsResponse getResponse() {
+        return response;
+    }
+
     @Override
     public String toString() {
         return "NewsModel{" +
@@ -19,7 +23,7 @@ public class NewsModel {
                 '}';
     }
 
-    private class NewsResponse {
+    public class NewsResponse {
         private String status;
         private String userTier;
         private int total;
@@ -29,6 +33,42 @@ public class NewsModel {
         private int pages;
         private String relevance;
         private List<Results> results;
+
+        public String getStatus() {
+            return status;
+        }
+
+        public String getUserTier() {
+            return userTier;
+        }
+
+        public int getTotal() {
+            return total;
+        }
+
+        public int getStartIndex() {
+            return startIndex;
+        }
+
+        public int getPageSize() {
+            return pageSize;
+        }
+
+        public int getCurrentPage() {
+            return currentPage;
+        }
+
+        public int getPages() {
+            return pages;
+        }
+
+        public String getRelevance() {
+            return relevance;
+        }
+
+        public List<Results> getResults() {
+            return results;
+        }
 
         @Override
         public String toString() {
@@ -46,7 +86,7 @@ public class NewsModel {
         }
     }
 
-    private class Results {
+    public class Results {
 
         private String id;
         private String article;
@@ -59,6 +99,50 @@ public class NewsModel {
         private boolean isHosted;
         private String pillarId;
         private String pillarName;
+
+        public String getId() {
+            return id;
+        }
+
+        public String getArticle() {
+            return article;
+        }
+
+        public String getSectionId() {
+            return sectionId;
+        }
+
+        public String getSectionName() {
+            return sectionName;
+        }
+
+        public String getWebPublicationDate() {
+            return webPublicationDate;
+        }
+
+        public String getWebTitle() {
+            return webTitle;
+        }
+
+        public String getWebUrl() {
+            return webUrl;
+        }
+
+        public String getApiUrl() {
+            return apiUrl;
+        }
+
+        public boolean isHosted() {
+            return isHosted;
+        }
+
+        public String getPillarId() {
+            return pillarId;
+        }
+
+        public String getPillarName() {
+            return pillarName;
+        }
 
         @Override
         public String toString() {

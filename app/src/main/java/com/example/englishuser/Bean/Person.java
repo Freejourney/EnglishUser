@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.Bean;
 
 public class Person {
     private String name, age;

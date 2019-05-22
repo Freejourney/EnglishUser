@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.englishuser.Bean.NewsModel;
+import com.example.englishuser.R;
+import com.example.englishuser.util.RequsetInterface;
 import com.zwy.xlog.XLog;
 
 import retrofit2.Call;

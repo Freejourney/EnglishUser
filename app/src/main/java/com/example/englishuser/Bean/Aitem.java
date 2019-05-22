@@ -1,4 +1,4 @@
-package com.example.englishuser;
+package com.example.englishuser.Bean;
 /*
  * 文件名：Aitem
  * 作者：created by admin on 2019 五月
