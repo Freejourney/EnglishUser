@@ -19,5 +19,6 @@ The news data comes from [The Guardian](https://open-platform.theguardian.com/do
 
 # Next Plan
 
+- try to use Jsoup to parse HTML and make my own news display page
 - YouDao Translator
 - others...
