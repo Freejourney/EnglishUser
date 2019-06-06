@@ -8,6 +8,8 @@ package com.example.englishuser.util;
 
 public class Config {
 
+    public static int Type_Independent_Writing = 1;
+
     public static String txt = "Do you agree or disagree with the following statement? Governments should spend more money in support of the arts than in support of athletics such as state-sponsored Olympic teams. Use specific reasons and examples to support your answer.\n" +
             "Do you agree or disagree with the following statement? It is more important for governments to spend money to improve Internet access than to improve public transportation. Use specific reasons and examples to support your answer.\n" +
             "Do you agree or disagree with the following statement? The rules that societies today expect young people to follow and obey are too strict. Use specific reasons and examples to support your answer.\n" +
